@@ -9,6 +9,8 @@ $navbarBackground: white;
 
 body{
 	padding-top: 60px;
+	background-image: url(http://iamthebeersnob.files.wordpress.com/2012/09/beer-wallpaper1.jpg);
+	background-repeat: no-repeat;
 }
 
 @import 'bootstrap-responsive';
@@ -20,12 +22,17 @@ body{
 
 
 .footer{
-
+	position: fixed;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	bottom: 0px;
+	right: 0px;
 	margin-top: 50px;
-	color: $grayLight;
+	color: $black;
 	a {
 		color: $gray;
 	}
+
 }
 
 /* Required for jQuery Masonry */
@@ -40,6 +47,7 @@ body{
 	border-radius: 5px;
 	box-shadow: 1px 1px 10px #444;
 	width: 214px;
+	background-color: $white;
 }
 
 .box img {
