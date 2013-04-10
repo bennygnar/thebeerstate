@@ -23,11 +23,11 @@ body{
 
 .footer{
 	position: fixed;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 	padding-right: 10px;
 	bottom: 0px;
 	right: 0px;
-	margin-top: 50px;
+	margin-top: 10px;
 	color: $black;
 	a {
 		color: $gray;
@@ -60,4 +60,13 @@ body{
 
 .description {
 	margin: 10px 5px;
+}
+
+.hero-unit {
+	background-color: $white;
+	background-image: url(http://i1.sndcdn.com/artworks-000042165777-vz3muc-original.jpg?271c828);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-position: 84% 40%;
+
 }
